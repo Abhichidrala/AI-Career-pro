@@ -1,0 +1,578 @@
+body {
+    background-color: #F8F8FF; /* Ghost White - a soft off-white background */
+    color: #333333; /* Dark gray for text */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* White header background */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #4A90E2; /* Blue accent color */
+}
+
+.logo .plus {
+    color: #333333; /* Dark gray for "plus" */
+}
+
+.logo h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.about-link {
+    color: #4A90E2;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.about-link:hover {
+    color: #2D68C0; /* Darker blue on hover */
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.tagline {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #333333;
+    letter-spacing: 1px;
+}
+
+/* Rounded, soft containers */
+.form-container, .questions-container, .report-container, .about-container {
+    background-color: #ffffff;
+    border-radius: 20px; /* More pronounced rounded corners */
+    padding: 40px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for a floating effect */
+    text-align: left;
+}
+
+.certificate-container { 
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: none;
+    text-align: left;
+}
+
+.form-container h2, .questions-container h2, .report-container h2, .certificate-container h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #666666;
+}
+
+/* Soft, rounded inputs */
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #DDDDDD;
+    background-color: #F0F0F0; /* Lighter background for inputs */
+    color: #333333;
+    border-radius: 12px; /* Soft rounded input fields */
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus {
+    outline: none;
+    border-color: #4A90E2;
+    box-shadow: 0 0 8px rgba(74, 144, 226, 0.3); /* Soft blue glow on focus */
+}
+
+select {
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="%23333333" d="M8 12L2 6l1.4-1.4L8 9.2l4.6-4.6L14 6z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 12px top 50%;
+    padding-right: 30px;
+}
+
+/* Rounded, soft buttons */
+button {
+    width: 100%;
+    padding: 15px;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+    margin-top: 15px;
+    transform: translateY(0);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover and active effects */
+button:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Button color palette */
+#ai-mode-btn, #fallback-mode-btn {
+    background-color: #4A90E2;
+}
+
+#ai-mode-btn:hover, #fallback-mode-btn:hover {
+    background-color: #2D68C0;
+}
+
+#start-assessment-btn {
+    background-color: #4A90E2; /* Blue */
+}
+#start-assessment-btn:hover {
+    background-color: #2D68C0;
+}
+
+#get-certificate-btn {
+    background-color: #4A90E2; /* Blue */
+}
+#get-certificate-btn:hover {
+    background-color: #2D68C0;
+}
+
+#submit-answers-btn, #download-report-btn {
+    background-color: #6A5ACD; /* A soft indigo */
+}
+#submit-answers-btn:hover, #download-report-btn:hover {
+    background-color: #5849AD;
+}
+
+#restart-btn, #restart-from-certificate-btn {
+    background-color: #9C27B0; /* A soft purple */
+}
+#restart-btn:hover, #restart-from-certificate-btn:hover {
+    background-color: #7B1FA2;
+}
+
+/* Quiz questions and elements */
+.question-item {
+    background-color: #F0F0F0;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    color: #333333;
+}
+
+.question-item p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0;
+    color: #333333;
+}
+
+.options-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.options-list li {
+    margin-bottom: 15px;
+}
+
+.options-list label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    color: #666666;
+    transition: color 0.2s;
+}
+
+.options-list label:hover {
+    color: #333333;
+}
+
+.options-list input[type="radio"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #DDDDDD;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-right: 15px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.options-list input[type="radio"]:checked {
+    border-color: #4A90E2;
+    background-color: #4A90E2; /* Filled with blue on check */
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.3);
+}
+
+.options-list input[type="radio"]:checked::after {
+    content: none;
+}
+
+/* Report Section Styles */
+.report-container p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.report-container p strong {
+    color: #4A90E2;
+}
+
+.answers-review-list .review-item {
+    background-color: #F0F0F0;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.answers-review-list .review-item p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+.answers-review-list .review-item .your-answer {
+    color: #6A5ACD; /* A soft indigo */
+}
+
+.answers-review-list .review-item .correct-answer {
+    color: #4CAF50; /* Green remains for correct answers, as it's a standard positive visual cue */
+}
+
+/* Certificate Section Styles (ON-SCREEN version) */
+.certificate-container {
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.certificate-content {
+    background-image: url('./images/certificate-background.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    padding: 0;
+    margin-top: 20px;
+    position: relative;
+    width: 794px;
+    height: 595px;
+    max-width: 90vw;
+    max-height: 70vh;
+    aspect-ratio: 794 / 595;
+    display: block;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    color: #333333;
+}
+
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.certificate-content .certificate-title,
+.certificate-content .sub-title,
+.certificate-content .award-intro,
+.certificate-content .completion-text,
+.certificate-content h3#certificate-role,
+.certificate-content .signature-text,
+.certificate-content .certificate-date {
+    color: #333333;
+}
+
+.certificate-content h3#certificate-name {
+    color: #4A90E2;
+}
+
+/* Styles for the download and restart buttons */
+.certificate-container > button {
+    margin-top: 20px;
+    width: 50%;
+    max-width: 280px;
+}
+
+#download-certificate-btn {
+    background-color: #4A90E2;
+}
+#download-certificate-btn:hover {
+    background-color: #2D68C0;
+}
+#restart-from-certificate-btn {
+    background-color: #9C27B0;
+}
+#restart-from-certificate-btn:hover {
+    background-color: #7B1FA2;
+}
+
+/* About Section Styles */
+.about-container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.about-container h2 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+#about-back-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #4A90E2;
+}
+
+#about-back-btn:hover {
+    background-color: #2D68C0;
+}
+
+.about-container .contact-link {
+    color: #4A90E2;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.about-container .contact-link:hover {
+    text-decoration: underline;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    color: #999999;
+    font-size: 14px;
+}
+
+/* Styles for the hidden certificate container for PDF generation */
+#certificate-for-pdf {
+    width: 297mm;
+    height: 210mm;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    box-sizing: border-box;
+    background-color: #F8F8FF;
+    color: #333333;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    z-index: -1;
+}
+
+.certificate-content-pdf {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.certificate-title-pdf {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    color: #333333;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sub-title-pdf {
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: #333333;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+.award-intro-pdf {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    color: #666666;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#certificate-name-pdf {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Great Vibes', cursive;
+    font-size: 52px;
+    color: #4A90E2;
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: 400;
+    text-align: center;
+}
+
+.completion-text-pdf {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    color: #666666;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    text-align: center;
+}
+
+#certificate-role-pdf {
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #333333;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.signature-block-pdf {
+    position: absolute;
+    bottom: 12%;
+    left: 17%;
+    width: 200px;
+    text-align: left;
+}
+
+.signature-line-pdf {
+    border-bottom: 1px solid #999999;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.signature-text-pdf {
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    color: #666666;
+    margin: 0;
+    text-align: left;
+}
+
+.certificate-date-pdf {
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    color: #666666;
+    margin: 0;
+    text-align: left;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    color: #999999;
+    font-size: 14px;
+}

@@ -1,0 +1,184 @@
+{
+    "questions": [
+        {
+            "question": "What is the main purpose of a 'bounding box' in object detection?",
+            "options": ["To crop an image.", "To highlight the background.", "To specify the location and size of an object in an image.", "To increase the image resolution."],
+            "answer": "To specify the location and size of an object in an image.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Which of the following is a common technique for edge detection in computer vision?",
+            "options": ["K-means clustering", "Linear regression", "Canny algorithm", "Decision trees"],
+            "answer": "Canny algorithm",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "In a 'semantic segmentation' task, what is the goal?",
+            "options": ["To draw a bounding box around objects.", "To classify the entire image into a single category.", "To classify each pixel of an image into a category.", "To count the number of objects in an image."],
+            "answer": "To classify each pixel of an image into a category.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the purpose of a 'pooling layer' in a CNN?",
+            "options": ["To add more complexity to the model.", "To reduce the spatial dimensions of the feature map.", "To increase the number of channels.", "To change the activation function."],
+            "answer": "To reduce the spatial dimensions of the feature map.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the primary difference between 'object detection' and 'image classification'?",
+            "options": ["Image classification finds objects and their location, while object detection only categorizes the image.", "Object detection finds objects and their location, while image classification only categorizes the entire image.", "Image classification is used for video, and object detection is for images.", "There is no difference."],
+            "answer": "Object detection finds objects and their location, while image classification only categorizes the entire image.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Which of the following is a popular dataset for object detection?",
+            "options": ["MNIST", "ImageNet", "COCO", "CIFAR-10"],
+            "answer": "COCO",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is 'instance segmentation'?",
+            "options": ["A task that groups pixels belonging to the same semantic class.", "A task that draws bounding boxes around all objects.", "A task that identifies and segments each individual object instance in an image.", "A task that removes objects from an image."],
+            "answer": "A task that identifies and segments each individual object instance in an image.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the role of a 'pre-trained model' like VGG or ResNet?",
+            "options": ["To generate synthetic images.", "To serve as a base for new computer vision tasks by leveraging learned features.", "To perform data augmentation.", "To reduce the model's training time to zero."],
+            "answer": "To serve as a base for new computer vision tasks by leveraging learned features.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is 'data augmentation' in computer vision?",
+            "options": ["A technique to make the dataset larger by creating modified copies of images.", "A method to clean up noisy images.", "A process to reduce the image size.", "A way to convert images to text."],
+            "answer": "A technique to make the dataset larger by creating modified copies of images.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Which of these is a common use case for a 'pose estimation' model?",
+            "options": ["Counting cars in an image.", "Identifying the location of key human body joints.", "Classifying a single image into a category.", "Translating a video into text."],
+            "answer": "Identifying the location of key human body joints.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the purpose of 'non-maximum suppression' (NMS) in object detection?",
+            "options": ["To increase the number of bounding boxes.", "To merge overlapping bounding boxes for the same object.", "To suppress background objects.", "To reduce the image resolution."],
+            "answer": "To merge overlapping bounding boxes for the same object.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Which type of neural network is best suited for image classification?",
+            "options": ["Recurrent Neural Network (RNN)", "Convolutional Neural Network (CNN)", "Multilayer Perceptron (MLP)", "Generative Adversarial Network (GAN)"],
+            "answer": "Convolutional Neural Network (CNN)",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is a 'feature map' in a CNN?",
+            "options": ["A map showing the location of all features in an image.", "The output of a convolutional layer, representing learned features.", "A map of the image's colors.", "A map of the image's edges."],
+            "answer": "The output of a convolutional layer, representing learned features.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the main goal of 'image registration'?",
+            "options": ["To increase the image size.", "To align multiple images of the same scene.", "To convert an image to grayscale.", "To detect objects in an image."],
+            "answer": "To align multiple images of the same scene.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Which of these is a common 'loss function' for semantic segmentation?",
+            "options": ["Mean Squared Error (MSE)", "Binary Cross-Entropy", "Dice Loss", "R-squared"],
+            "answer": "Dice Loss",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What does 'YOLO' stand for in computer vision?",
+            "options": ["You Only Look Once", "Your Object Locator", "Yet Other Localization Object", "You Only Learn One"],
+            "answer": "You Only Look Once",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is 'optical flow' used for?",
+            "options": ["Detecting objects in images.", "Tracking object movement in video sequences.", "Generating new images.", "Classifying images."],
+            "answer": "Tracking object movement in video sequences.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the purpose of 'image filtering'?",
+            "options": ["To add noise to an image.", "To transform the image to another format.", "To modify the pixel values to achieve a certain effect, like blurring or sharpening.", "To detect objects."],
+            "answer": "To modify the pixel values to achieve a certain effect, like blurring or sharpening.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Which of these is a key component of the 'Canny edge detection' algorithm?",
+            "options": ["Thresholding", "Clustering", "Linear regression", "Dimensionality reduction"],
+            "answer": "Thresholding",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the main task of 'facial recognition'?",
+            "options": ["To detect a face in an image.", "To identify or verify a person from a digital image.", "To remove a face from an image.", "To draw a bounding box around a face."],
+            "answer": "To identify or verify a person from a digital image.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is 'stereopsis'?",
+            "options": ["The ability to see in black and white.", "The ability to perceive depth from two images captured from different viewpoints.", "The ability to detect a single object.", "The ability to recognize a face."],
+            "answer": "The ability to perceive depth from two images captured from different viewpoints.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is 'pose estimation'?",
+            "options": ["The task of detecting objects in an image.", "The task of classifying an image.", "The task of estimating the position and orientation of a person or object in an image.", "The task of counting objects in an image."],
+            "answer": "The task of estimating the position and orientation of a person or object in an image.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is 'HOG' used for in computer vision?",
+            "options": ["A method for detecting edges.", "A feature descriptor for object detection.", "A type of neural network.", "A type of data augmentation."],
+            "answer": "A feature descriptor for object detection.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What does a 'kernel' or 'filter' do in a CNN?",
+            "options": ["It adds more layers to the network.", "It performs a convolution operation on an input image.", "It reduces the size of the feature map.", "It changes the color of the image."],
+            "answer": "It performs a convolution operation on an input image.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the main task of a 'recurrent neural network' in computer vision?",
+            "options": ["Image classification.", "Processing video sequences or other sequential data.", "Object detection.", "Image segmentation."],
+            "answer": "Processing video sequences or other sequential data.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the primary purpose of 'data augmentation'?",
+            "options": ["To reduce the size of the dataset.", "To prevent overfitting by creating new training examples from existing ones.", "To increase the training time.", "To remove outliers from the data."],
+            "answer": "To prevent overfitting by creating new training examples from existing ones.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is a 'semantic segmentation' task?",
+            "options": ["Classifying the entire image.", "Identifying and localizing objects.", "Classifying each pixel in an image.", "Generating new images."],
+            "answer": "Classifying each pixel in an image.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is 'image registration'?",
+            "options": ["Aligning multiple images of the same scene.", "Detecting edges in an image.", "Removing noise from an image.", "Classifying an image."],
+            "answer": "Aligning multiple images of the same scene.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is 'optical flow'?",
+            "options": ["The apparent motion of objects in a video.", "The process of creating a new image.", "The process of detecting edges.", "The process of image classification."],
+            "answer": "The apparent motion of objects in a video.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the purpose of 'non-maximum suppression' (NMS)?",
+            "options": ["To increase the number of bounding boxes.", "To merge overlapping bounding boxes for the same object.", "To suppress background objects.", "To reduce the image resolution."],
+            "answer": "To merge overlapping bounding boxes for the same object.",
+            "difficulty": "intermediate"
+        }
+    ]
+}

@@ -1,0 +1,184 @@
+{
+    "questions": [
+        {
+            "question": "What is the 'Turing Test' designed to measure?",
+            "options": ["The computational speed of a processor.", "The ability of a machine to exhibit intelligent behavior.", "The efficiency of a sorting algorithm.", "The memory capacity of a computer."],
+            "answer": "The ability of a machine to exhibit intelligent behavior.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "In reinforcement learning, what is the 'exploration vs. exploitation' dilemma?",
+            "options": ["The choice between using a supervised or unsupervised model.", "The tradeoff between trying new actions to find a better strategy and using known good actions.", "The balance between training a model on a large dataset and a small one.", "The decision to use either a regression or a classification model."],
+            "answer": "The tradeoff between trying new actions to find a better strategy and using known good actions.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is a 'Generative Adversarial Network' (GAN) composed of?",
+            "options": ["Two interconnected neural networks: a generator and a discriminator.", "A single neural network with multiple hidden layers.", "A tree-based model with multiple branches.", "A linear model with multiple features."],
+            "answer": "Two interconnected neural networks: a generator and a discriminator.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the core principle behind 'few-shot learning'?",
+            "options": ["Training a model with millions of data points.", "Training a model with a very small number of examples.", "Using a large, pre-trained model for new tasks.", "Learning from an unlabeled dataset."],
+            "answer": "Training a model with a very small number of examples.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the main purpose of a 'transformer' architecture in NLP?",
+            "options": ["To perform image classification.", "To process sequential data with parallelization using self-attention.", "To reduce the number of features in a dataset.", "To generate random numbers."],
+            "answer": "To process sequential data with parallelization using self-attention.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "In the context of AI safety, what is the 'alignment problem'?",
+            "options": ["The problem of aligning multiple AI models.", "The challenge of ensuring an AI's goals align with human values.", "The process of aligning data for training.", "The issue of aligning a robot's physical movements."],
+            "answer": "The challenge of ensuring an AI's goals align with human values.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What does the term 'multimodal AI' refer to?",
+            "options": ["An AI model that can process data from a single modality, like text.", "An AI model that can process and understand multiple types of data, such as text and images.", "An AI system that can operate in multiple languages.", "An AI that can perform multiple tasks at once."],
+            "answer": "An AI model that can process and understand multiple types of data, such as text and images.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is a 'graph neural network' (GNN) used for?",
+            "options": ["Analyzing sequential data.", "Processing structured data in the form of graphs.", "Generating images from text descriptions.", "Performing linear regression."],
+            "answer": "Processing structured data in the form of graphs.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is 'meta-learning'?",
+            "options": ["Learning to learn.", "Learning to solve a single, specific task.", "Learning from a large, unstructured dataset.", "Learning with a human in the loop."],
+            "answer": "Learning to learn.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the 'scaling law' in large language models?",
+            "options": ["The law that governs the speed of a model's training.", "The empirical relationship between a model's performance and its size, dataset size, and compute.", "The law that determines the number of layers in a network.", "The relationship between a model's accuracy and its bias."],
+            "answer": "The empirical relationship between a model's performance and its size, dataset size, and compute.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the primary goal of 'causal inference' in AI?",
+            "options": ["To predict future events.", "To establish cause-and-effect relationships from data.", "To classify data into categories.", "To cluster similar data points."],
+            "answer": "To establish cause-and-effect relationships from data.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the main challenge of 'symbolic AI'?",
+            "options": ["The lack of data.", "The difficulty of representing real-world knowledge in a formal, logical system.", "The high computational cost.", "The inability to learn from new data."],
+            "answer": "The difficulty of representing real-world knowledge in a formal, logical system.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the purpose of a 'Knowledge Graph'?",
+            "options": ["To store large images.", "To represent knowledge in a structured way using entities and relationships.", "To perform mathematical calculations.", "To generate text."],
+            "answer": "To represent knowledge in a structured way using entities and relationships.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Which concept is central to 'Active Learning'?",
+            "options": ["The model is always active.", "The algorithm interactively queries a user to label new data points.", "The model learns from a passive data stream.", "The model learns from a single labeled example."],
+            "answer": "The algorithm interactively queries a user to label new data points.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is 'Neuro-symbolic AI'?",
+            "options": ["An AI that combines neural networks with symbolic reasoning.", "An AI that only uses neural networks.", "An AI that only uses symbolic logic.", "An AI that combines reinforcement learning with supervised learning."],
+            "answer": "An AI that combines neural networks with symbolic reasoning.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is 'transfer learning'?",
+            "options": ["Training a model from scratch.", "Transferring a trained model from one domain to another.", "Using a pre-trained model for a new, related task.", "Transferring data between different servers."],
+            "answer": "Using a pre-trained model for a new, related task.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the main idea behind 'explainable AI' (XAI)?",
+            "options": ["To make AI models more complex.", "To create AI models whose decisions can be understood by humans.", "To make AI models faster.", "To reduce the size of AI models."],
+            "answer": "To create AI models whose decisions can be understood by humans.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the purpose of 'adversarial attacks' on AI models?",
+            "options": ["To make the model more accurate.", "To intentionally trick the model into making a mistake.", "To speed up the training process.", "To make the model more robust."],
+            "answer": "To intentionally trick the model into making a mistake.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is 'causal inference' primarily concerned with?",
+            "options": ["Predicting future outcomes.", "Identifying cause-and-effect relationships.", "Classifying data into categories.", "Clustering data points."],
+            "answer": "Identifying cause-and-effect relationships.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is a 'semantic network'?",
+            "options": ["A network of computers.", "A network of neurons in the brain.", "A graph-based representation of knowledge.", "A type of neural network."],
+            "answer": "A graph-based representation of knowledge.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the 'frame problem' in AI?",
+            "options": ["The problem of stabilizing a video frame.", "The problem of deciding what information to update in a dynamic world model.", "The problem of creating a new frame for a video.", "The problem of losing video frames."],
+            "answer": "The problem of deciding what information to update in a dynamic world model.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is 'robotics' primarily concerned with?",
+            "options": ["Building software for mobile devices.", "The design, construction, and use of robots to perform tasks.", "Analyzing large datasets.", "Generating realistic images."],
+            "answer": "The design, construction, and use of robots to perform tasks.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the purpose of 'reinforcement learning from human feedback' (RLHF)?",
+            "options": ["To train models without any human input.", "To use human feedback to fine-tune a reinforcement learning model.", "To train robots to follow human commands.", "To generate human-like text."],
+            "answer": "To use human feedback to fine-tune a reinforcement learning model.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the key difference between 'AI' and 'Machine Learning'?",
+            "options": ["AI is a subset of ML.", "ML is a subset of AI.", "They are the same thing.", "AI is for hardware, ML is for software."],
+            "answer": "ML is a subset of AI.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is 'computer vision'?",
+            "options": ["A field of AI that deals with computer sound recognition.", "A field of AI that deals with computer text processing.", "A field of AI that enables computers to interpret and understand visual information.", "A field of AI that deals with computer memory management."],
+            "answer": "A field of AI that enables computers to interpret and understand visual information.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is a 'language model'?",
+            "options": ["A model for learning computer languages.", "A model for predicting the next word in a sequence of text.", "A model for translating text to images.", "A model for generating music."],
+            "answer": "A model for predicting the next word in a sequence of text.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the goal of 'active learning'?",
+            "options": ["To randomly select data points for labeling.", "To intelligently select a subset of data to label to maximize learning.", "To train a model on all available data.", "To learn from unlabeled data."],
+            "answer": "To intelligently select a subset of data to label to maximize learning.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is 'semi-supervised learning'?",
+            "options": ["Learning with a fully labeled dataset.", "Learning with a dataset that has both labeled and unlabeled data.", "Learning with an unlabeled dataset.", "Learning with human feedback."],
+            "answer": "Learning with a dataset that has both labeled and unlabeled data.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is 'transfer learning'?",
+            "options": ["Training a model from scratch.", "Using a model trained on one task for a different, but related, task.", "Transferring data between servers.", "Training a model on a different language."],
+            "answer": "Using a model trained on one task for a different, but related, task.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is a 'knowledge graph'?",
+            "options": ["A graph that shows a user's web browsing history.", "A graph that shows the relationships between entities in a structured way.", "A graph that shows the performance of a model.", "A graph that shows the distribution of data."],
+            "answer": "A graph that shows the relationships between entities in a structured way.",
+            "difficulty": "intermediate"
+        }
+    ]
+}

@@ -1,0 +1,184 @@
+{
+    "questions": [
+        {
+            "question": "What is the primary role of an 'optimizer' in a neural network?",
+            "options": ["To randomly initialize the weights.", "To adjust the learning rate during training.", "To minimize the loss function by updating the model's weights.", "To add more hidden layers to the network."],
+            "answer": "To minimize the loss function by updating the model's weights.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Which of the following is an example of a 'recurrent neural network' (RNN) application?",
+            "options": ["Image classification", "Natural language processing (NLP)", "Object detection", "Clustering"],
+            "answer": "Natural language processing (NLP)",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "In the context of deep learning, what is a 'convolutional layer' primarily used for?",
+            "options": ["Processing sequential data.", "Extracting features from images.", "Reducing the dimensionality of data.", "Handling tabular data."],
+            "answer": "Extracting features from images.",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the purpose of 'backpropagation'?",
+            "options": ["To forward-propagate data through the network", "To initialize weights randomly", "To compute the gradient of the loss function with respect to weights", "To activate neurons in the output layer"],
+            "answer": "To compute the gradient of the loss function with respect to weights",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the main difference between 'bias' and 'variance'?",
+            "options": ["Bias is high error, variance is low error", "Bias is the model's systematic error, variance is its sensitivity to training data", "Bias relates to overfitting, variance relates to underfitting", "They are two different names for the same thing"],
+            "answer": "Bias is the model's systematic error, variance is its sensitivity to training data",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Which of these is a popular framework for deep learning?",
+            "options": ["Pandas", "Scikit-learn", "TensorFlow", "Flask"],
+            "answer": "TensorFlow",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the role of an 'activation function'?",
+            "options": ["To normalize the input data", "To introduce non-linearity into the model", "To scale the output to a specific range", "To select the most important features"],
+            "answer": "To introduce non-linearity into the model",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Which metric is commonly used to evaluate a regression model?",
+            "options": ["Accuracy", "F1-score", "Mean Absolute Error (MAE)", "Precision"],
+            "answer": "Mean Absolute Error (MAE)",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is 'L1' and 'L2' regularization used for?",
+            "options": ["To increase the model's complexity", "To reduce overfitting by adding a penalty to the loss function", "To speed up the training process", "To handle categorical data"],
+            "answer": "To reduce overfitting by adding a penalty to the loss function",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the purpose of a 'dropout layer' in a neural network?",
+            "options": ["To remove a layer from the network", "To randomly set some neuron outputs to zero during training to prevent overfitting", "To increase the number of neurons", "To change the learning rate"],
+            "answer": "To randomly set some neuron outputs to zero during training to prevent overfitting",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is a 'hyperparameter'?",
+            "options": ["A parameter learned by the model during training", "A parameter set before the training process begins", "The output of the model", "The input data for the model"],
+            "answer": "A parameter set before the training process begins",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Which algorithm is a type of 'ensemble learning'?",
+            "options": ["K-Means", "Random Forest", "Linear Regression", "Naive Bayes"],
+            "answer": "Random Forest",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the main goal of 'dimensionality reduction'?",
+            "options": ["To increase the number of features", "To make the data more complex", "To simplify the data by reducing the number of features", "To find missing values"],
+            "answer": "To simplify the data by reducing the number of features",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the 'bias-variance tradeoff'?",
+            "options": ["The tradeoff between model complexity and interpretability", "The balance between a model's ability to fit training data and its ability to generalize to new data", "The tradeoff between training time and prediction speed", "The balance between accuracy and precision"],
+            "answer": "The balance between a model's ability to fit training data and its ability to generalize to new data",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What does a 'false positive' mean in a classification model?",
+            "options": ["The model predicted correctly", "The model predicted incorrectly that the outcome was positive", "The model predicted incorrectly that the outcome was negative", "The model could not make a prediction"],
+            "answer": "The model predicted incorrectly that the outcome was positive",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is 'cross-validation' used for?",
+            "options": ["To scale the data", "To handle missing values", "To prevent overfitting by evaluating model performance on different subsets of data", "To select the best features for a model"],
+            "answer": "To prevent overfitting by evaluating model performance on different subsets of data",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Which of these is not a common data preprocessing step?",
+            "options": ["Data cleaning", "Feature scaling", "Model deployment", "Handling missing values"],
+            "answer": "Model deployment",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is a 'time series' analysis used for?",
+            "options": ["Analyzing data with a spatial component", "Predicting future values based on past data points over time", "Classifying data into categories", "Finding clusters in the data"],
+            "answer": "Predicting future values based on past data points over time",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "In the context of data, what does 'EDA' stand for?",
+            "options": ["Executable Data Analysis", "Exploratory Data Analysis", "External Data Acquisition", "Essential Data Assessment"],
+            "answer": "Exploratory Data Analysis",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the main goal of 'feature engineering'?",
+            "options": ["To reduce the number of features", "To scale the data", "To create new features that improve model performance", "To remove duplicates"],
+            "answer": "To create new features that improve model performance",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Which type of learning involves an agent learning through trial and error?",
+            "options": ["Supervised learning", "Unsupervised learning", "Reinforcement learning", "Semi-supervised learning"],
+            "answer": "Reinforcement learning",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the purpose of 'gradient descent'?",
+            "options": ["To find the global minimum of a function", "To find the global maximum of a function", "To randomly initialize weights", "To calculate the accuracy of a model"],
+            "answer": "To find the global minimum of a function",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the 'Adam' optimizer?",
+            "options": ["A type of linear model", "A popular algorithm for training neural networks", "A method for data normalization", "A type of recurrent neural network"],
+            "answer": "A popular algorithm for training neural networks",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the purpose of a 'learning rate' in training a model?",
+            "options": ["It determines how quickly the model learns", "It determines the size of the dataset", "It determines the number of layers", "It is used for regularization"],
+            "answer": "It determines how quickly the model learns",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is 'one-hot encoding' primarily used for?",
+            "options": ["To scale numerical features", "To convert categorical features into a numerical format", "To remove duplicate data", "To fill in missing values"],
+            "answer": "To convert categorical features into a numerical format",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Which metric is the harmonic mean of precision and recall?",
+            "options": ["Accuracy", "F1-score", "Mean Absolute Error (MAE)", "R-squared"],
+            "answer": "F1-score",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is a 'bias-variance' trade-off?",
+            "options": ["The balance between a model's ability to fit training data and its ability to generalize to new data", "The balance between accuracy and precision", "The tradeoff between training time and prediction speed", "The tradeoff between model complexity and interpretability"],
+            "answer": "The balance between a model's ability to fit training data and its ability to generalize to new data",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the primary function of a 'loss function'?",
+            "options": ["To measure the accuracy of the model", "To calculate the error of the model", "To identify the best features", "To perform data normalization"],
+            "answer": "To calculate the error of the model",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What does 'NLP' stand for?",
+            "options": ["Natural Language Processing", "Neural Language Programming", "Network Learning Protocol", "Natural Logic Programming"],
+            "answer": "Natural Language Processing",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the purpose of a 'hidden layer' in a neural network?",
+            "options": ["To store the input data", "To connect the input and output layers and perform computations", "To display the output", "To act as the final decision layer"],
+            "answer": "To connect the input and output layers and perform computations",
+            "difficulty": "intermediate"
+        }
+    ]
+}

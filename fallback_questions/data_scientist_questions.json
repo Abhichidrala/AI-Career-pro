@@ -1,0 +1,184 @@
+{
+    "questions": [
+        {
+            "question": "What is the primary purpose of a 'train-test split' in machine learning?",
+            "options": ["To increase the model's accuracy", "To evaluate the model's performance on unseen data", "To reduce the model's complexity", "To handle missing data"],
+            "answer": "To evaluate the model's performance on unseen data",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Which of the following is a key characteristic of supervised learning?",
+            "options": ["It uses unlabeled data to find hidden patterns", "The algorithm is not provided with any target variable", "It uses labeled data to train a model and make predictions", "It involves a series of rewards and penalties"],
+            "answer": "It uses labeled data to train a model and make predictions",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the term for a model that has high variance and low bias?",
+            "options": ["Underfitting", "Just right", "Overfitting", "Regularization"],
+            "answer": "Overfitting",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Which of these is a common metric for evaluating a classification model?",
+            "options": ["Mean Squared Error (MSE)", "R-squared", "Precision", "Root Mean Squared Error (RMSE)"],
+            "answer": "Precision",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the purpose of 'one-hot encoding' in data preprocessing?",
+            "options": ["To scale numerical features", "To convert categorical features into a numerical format", "To remove duplicate data", "To fill in missing values"],
+            "answer": "To convert categorical features into a numerical format",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the 'F1-score' a harmonic mean of?",
+            "options": ["Accuracy and Recall", "Precision and Recall", "True Positive Rate and False Positive Rate", "True Negative Rate and False Negative Rate"],
+            "answer": "Precision and Recall",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Which of the following is a common method for handling 'class imbalance'?",
+            "options": ["Data Scaling", "Over-sampling or Under-sampling", "Feature Selection", "Cross-validation"],
+            "answer": "Over-sampling or Under-sampling",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the main goal of 'dimensionality reduction'?",
+            "options": ["To increase the number of features", "To make the data more complex", "To simplify the data by reducing the number of features", "To find missing values"],
+            "answer": "To simplify the data by reducing the number of features",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Which Python library is most commonly used for data manipulation and analysis?",
+            "options": ["NumPy", "Matplotlib", "Pandas", "Scikit-learn"],
+            "answer": "Pandas",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the purpose of a 'confusion matrix'?",
+            "options": ["To visualize the data distribution", "To measure the performance of a classification model", "To find correlations between features", "To identify outliers in the data"],
+            "answer": "To measure the performance of a classification model",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "In a linear regression model, what does the 'R-squared' value represent?",
+            "options": ["The slope of the line", "The number of independent variables", "The proportion of the variance in the dependent variable that is predictable from the independent variable(s)", "The error of the model"],
+            "answer": "The proportion of the variance in the dependent variable that is predictable from the independent variable(s)",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the term for a model that performs well on training data but poorly on unseen test data?",
+            "options": ["Underfitting", "Overfitting", "Bias", "Variance"],
+            "answer": "Overfitting",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the 'k' in a k-means clustering algorithm?",
+            "options": ["The number of data points", "The number of clusters", "The number of features", "The number of iterations"],
+            "answer": "The number of clusters",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Which of these is a popular unsupervised learning algorithm?",
+            "options": ["Linear Regression", "Decision Trees", "K-Means Clustering", "Support Vector Machines (SVM)"],
+            "answer": "K-Means Clustering",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the purpose of 'cross-validation'?",
+            "options": ["To scale the data", "To handle missing values", "To prevent overfitting by evaluating model performance on different subsets of data", "To select the best features for a model"],
+            "answer": "To prevent overfitting by evaluating model performance on different subsets of data",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is a 'hyperparameter' in machine learning?",
+            "options": ["A parameter that is learned by the model during training", "A parameter set before the training process begins", "The output of the model", "The input data for the model"],
+            "answer": "A parameter set before the training process begins",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the 'bias-variance tradeoff'?",
+            "options": ["The tradeoff between model complexity and interpretability", "The balance between a model's ability to fit training data and its ability to generalize to new data", "The tradeoff between training time and prediction speed", "The balance between accuracy and precision"],
+            "answer": "The balance between a model's ability to fit training data and its ability to generalize to new data",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Which of the following is a type of 'ensemble learning'?",
+            "options": ["Linear Regression", "K-Means", "Random Forest", "Naive Bayes"],
+            "answer": "Random Forest",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the purpose of 'feature scaling'?",
+            "options": ["To increase the number of features", "To normalize the range of independent variables", "To remove irrelevant features", "To convert categorical features"],
+            "answer": "To normalize the range of independent variables",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Which data visualization library is a part of the Python data science ecosystem?",
+            "options": ["React", "D3.js", "Matplotlib", "Tableau"],
+            "answer": "Matplotlib",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the main difference between 'correlation' and 'causation'?",
+            "options": ["They are the same thing", "Correlation implies a cause-and-effect relationship", "Causation implies a cause-and-effect relationship, while correlation does not", "Neither implies a relationship"],
+            "answer": "Causation implies a cause-and-effect relationship, while correlation does not",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Which type of data is typically used to test a final model after training and validation?",
+            "options": ["Training data", "Validation data", "Test data", "All of the above"],
+            "answer": "Test data",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is 'regularization' used for?",
+            "options": ["To improve model interpretability", "To reduce overfitting", "To increase model complexity", "To handle missing data"],
+            "answer": "To reduce overfitting",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What does a 'false positive' mean in a classification model?",
+            "options": ["The model predicted correctly", "The model predicted incorrectly that the outcome was positive", "The model predicted incorrectly that the outcome was negative", "The model could not make a prediction"],
+            "answer": "The model predicted incorrectly that the outcome was positive",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Which of the following is a key component of a 'decision tree'?",
+            "options": ["A series of linear equations", "A set of if-then-else rules", "A single hidden layer", "A series of neurons"],
+            "answer": "A set of if-then-else rules",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is 'clustering' a form of?",
+            "options": ["Supervised learning", "Unsupervised learning", "Reinforcement learning", "Semi-supervised learning"],
+            "answer": "Unsupervised learning",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is the primary role of a data scientist?",
+            "options": ["To develop mobile applications", "To manage network infrastructure", "To extract insights from data using a combination of statistics, programming, and domain knowledge", "To design user interfaces"],
+            "answer": "To extract insights from data using a combination of statistics, programming, and domain knowledge",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "Which of these is not a common data preprocessing step?",
+            "options": ["Data cleaning", "Feature scaling", "Model deployment", "Handling missing values"],
+            "answer": "Model deployment",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "What is a 'time series' analysis used for?",
+            "options": ["Analyzing data with a spatial component", "Predicting future values based on past data points over time", "Classifying data into categories", "Finding clusters in the data"],
+            "answer": "Predicting future values based on past data points over time",
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "In the context of data, what does 'EDA' stand for?",
+            "options": ["Executable Data Analysis", "Exploratory Data Analysis", "External Data Acquisition", "Essential Data Assessment"],
+            "answer": "Exploratory Data Analysis",
+            "difficulty": "intermediate"
+        }
+    ]
+}
