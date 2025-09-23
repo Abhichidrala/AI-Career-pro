@@ -1,5 +1,5 @@
 body {
-    background-color: #F8F8FF; /* Ghost White - a soft off-white background */
+    background-color: #F8F8FF; /* Soft off-white background */
     color: #333333; /* Dark gray for text */
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -78,6 +78,26 @@ main {
     letter-spacing: 1px;
 }
 
+/* New styles for the intro text and divider */
+.intro-text {
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.intro-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666666;
+}
+
+.divider {
+    width: 100px;
+    height: 2px;
+    background-color: #DDDDDD;
+    margin: 0 auto 30px;
+    border-radius: 2px;
+}
+
 /* Rounded, soft containers */
 .form-container, .questions-container, .report-container, .about-container {
     background-color: #ffffff;
@@ -95,7 +115,7 @@ main {
     text-align: left;
 }
 
-.form-container h2, .questions-container h2, .report-container h2, .certificate-container h2 {
+.form-container h2, .questions-container h2, .report-container h2, .about-container h2 {
     font-family: 'Playfair Display', serif;
     font-size: 24px;
     margin-bottom: 20px;
@@ -146,18 +166,18 @@ select {
     padding-right: 30px;
 }
 
-/* Rounded, soft buttons */
+/* Rounded, soft buttons with updated size */
 button {
     width: 100%;
-    padding: 15px;
+    padding: 12px; /* Reduced padding for a smaller button size */
     color: #ffffff;
     border: none;
     border-radius: 12px;
-    font-size: 18px;
+    font-size: 16px; /* Smaller font size */
     font-weight: 700;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
-    margin-top: 15px;
+    margin-top: 10px; /* Reduced margin */
     transform: translateY(0);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
@@ -173,7 +193,7 @@ button:active {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Button color palette */
+/* Button color palette (no green or red) */
 #ai-mode-btn, #fallback-mode-btn {
     background-color: #4A90E2;
 }
@@ -182,96 +202,112 @@ button:active {
     background-color: #2D68C0;
 }
 
-#start-assessment-btn {
-    background-color: #4A90E2; /* Blue */
+#start-assessment-btn, #get-certificate-btn {
+    background-color: #4A90E2;
 }
-#start-assessment-btn:hover {
-    background-color: #2D68C0;
-}
-
-#get-certificate-btn {
-    background-color: #4A90E2; /* Blue */
-}
-#get-certificate-btn:hover {
+#start-assessment-btn:hover, #get-certificate-btn:hover {
     background-color: #2D68C0;
 }
 
 #submit-answers-btn, #download-report-btn {
-    background-color: #6A5ACD; /* A soft indigo */
+    background-color: #6A5ACD;
 }
 #submit-answers-btn:hover, #download-report-btn:hover {
     background-color: #5849AD;
 }
 
 #restart-btn, #restart-from-certificate-btn {
-    background-color: #9C27B0; /* A soft purple */
+    background-color: #9C27B0;
 }
 #restart-btn:hover, #restart-from-certificate-btn:hover {
     background-color: #7B1FA2;
 }
 
-/* Quiz questions and elements */
+/* ------------------------------------------------------------- */
+/* NEW QUESTION ITEM STRUCTURE */
+/* ------------------------------------------------------------- */
 .question-item {
-    background-color: #F0F0F0;
-    padding: 20px;
-    border-radius: 12px;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    color: #333333;
+    background-color: #ffffff; /* White background for the card */
+    border-radius: 16px; /* Slightly more rounded corners */
+    padding: 30px; /* Increased padding */
+    margin-bottom: 25px; /* Increased margin between cards (if multiple) */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* Softer, more spread out shadow */
+    text-align: left;
+    border: 1px solid #EEEEEE; /* Very light border */
+}
+
+.question-item p strong {
+    color: #4A90E2; /* Highlight question number with blue */
+    font-size: 1.1em; /* Slightly larger question number */
+    margin-right: 8px;
 }
 
 .question-item p {
-    font-size: 18px;
+    font-size: 19px; /* Slightly larger question text */
     font-weight: 500;
     margin-top: 0;
+    margin-bottom: 25px; /* More space below the question */
     color: #333333;
+    line-height: 1.5; /* Better readability */
 }
 
 .options-list {
     list-style-type: none;
     padding: 0;
-    margin-top: 15px;
+    margin-top: 0; /* Remove top margin */
 }
 
 .options-list li {
-    margin-bottom: 15px;
+    margin-bottom: 15px; /* Spacing between options */
+    background-color: #F0F4F8; /* Light blueish-gray background for each option */
+    border-radius: 10px; /* Rounded corners for each option */
+    padding: 12px 15px; /* Padding inside each option */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow for each option */
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.options-list li:hover {
+    background-color: #E0E7EB; /* Slightly darker on hover */
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08); /* More pronounced shadow on hover */
 }
 
 .options-list label {
     display: flex;
     align-items: center;
     cursor: pointer;
-    font-size: 16px;
-    color: #666666;
+    font-size: 17px; /* Slightly larger font for options */
+    color: #555555; /* Medium gray for option text */
     transition: color 0.2s;
 }
 
 .options-list label:hover {
-    color: #333333;
+    color: #333333; /* Darker on hover */
 }
 
 .options-list input[type="radio"] {
     appearance: none;
     width: 20px;
     height: 20px;
-    border: 2px solid #DDDDDD;
+    border: 2px solid #BBDEFB; /* Light blue border */
     background-color: #ffffff;
     border-radius: 50%;
     margin-right: 15px;
     position: relative;
     cursor: pointer;
-    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.2s, background-color 0.2s, box-shadow 0.2s;
 }
 
 .options-list input[type="radio"]:checked {
-    border-color: #4A90E2;
-    background-color: #4A90E2; /* Filled with blue on check */
-    box-shadow: 0 0 5px rgba(74, 144, 226, 0.3);
+    border-color: #4A90E2; /* Blue border on check */
+    background-color: #4A90E2; /* Blue fill on check */
+    box-shadow: 0 0 0 4px rgba(74, 144, 226, 0.3), inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Blue glow around */
 }
 
 .options-list input[type="radio"]:checked::after {
-    content: none;
+    content: none; /* No inner dot needed with full background fill */
 }
+
 
 /* Report Section Styles */
 .report-container p {
@@ -303,10 +339,10 @@ button:active {
 }
 
 .answers-review-list .review-item .correct-answer {
-    color: #4CAF50; /* Green remains for correct answers, as it's a standard positive visual cue */
+    color: #4CAF50; /* A soft green for correct answers */
 }
 
-/* Certificate Section Styles (ON-SCREEN version) */
+/* Certificate Section Styles */
 .certificate-container {
     text-align: center;
     padding: 0;
@@ -381,7 +417,7 @@ button:active {
 /* About Section Styles */
 .about-container {
     background-color: #ffffff;
-    border-radius: 20px;
+    border-radius: 12px;
     padding: 40px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     text-align: left;
@@ -576,3 +612,4 @@ footer {
     color: #999999;
     font-size: 14px;
 }
+
