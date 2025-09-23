@@ -1,7 +1,7 @@
-// Load environment variables from .env file
+// it Loads environment variables from .env file
 require('dotenv').config();
 
-// Import necessary modules
+// it Import necessary modules
 const express = require('express');
 const cors = require('cors');
 const fs = require('fs');
@@ -12,7 +12,7 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 const app = express();
 const port = process.env.PORT || 4000;
 
-// ✅ Serve static files from "public" folder
+// Serve static files from "public" folder
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Middleware to parse JSON bodies
@@ -40,9 +40,9 @@ function preloadFallbackQuestions() {
         try {
             const fileContent = fs.readFileSync(filePath, 'utf-8');
             fallbackQuestions[role] = JSON.parse(fileContent).questions;
-            console.log(`✅ Pre-loaded fallback questions for: ${role}`);
+            console.log(` Pre-loaded fallback questions for: ${role}`);
         } catch (error) {
-            console.error(`❌ Failed to load fallback questions for ${role}: ${error.message}`);
+            console.error(` Failed to load fallback questions for ${role}: ${error.message}`);
             fallbackQuestions[role] = null;
         }
     });
@@ -51,7 +51,7 @@ function preloadFallbackQuestions() {
 // Pre-load the questions
 preloadFallbackQuestions();
 
-// ---- API route to generate questions ----
+//  API route to generate questions 
 app.post('/generate-questions', async (req, res) => {
     const { role, difficulty, mode } = req.body;
 
@@ -76,7 +76,7 @@ app.post('/generate-questions', async (req, res) => {
         return res.status(500).json({ error: 'No fallback questions found.' });
     }
 
-    // ---- AI Mode ----
+    //  AI Mode 
     try {
         const prompt = `Generate 30 multiple-choice questions for an assessment in the field of "${role}". 
         The questions should be of "${difficulty}" difficulty. 
@@ -95,7 +95,7 @@ app.post('/generate-questions', async (req, res) => {
 
         return res.status(200).json(questions);
     } catch (error) {
-        console.error('❌ Gemini API error. Using fallback...', error);
+        console.error(' Gemini API error. Using fallback', error);
 
         if (fallbackQuestions[roleKey]) {
             const filtered = fallbackQuestions[roleKey].filter(
@@ -112,12 +112,12 @@ app.post('/generate-questions', async (req, res) => {
     }
 });
 
-// ---- Root route (serves index.html) ----
+//  Root route it  (serves index.html) 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 // Start server
 app.listen(port, () => {
-    console.log(`🚀 Server running at http://localhost:${port}`);
+    console.log(` Server running at http://localhost:${port}`);
 });

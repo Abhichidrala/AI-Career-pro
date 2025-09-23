@@ -78,7 +78,7 @@ main {
     letter-spacing: 1px;
 }
 
-/* New styles for the intro text and divider */
+/* the intro text and divider */
 .intro-text {
     max-width: 600px;
     margin: 0 auto 30px;
@@ -98,7 +98,7 @@ main {
     border-radius: 2px;
 }
 
-/* Rounded, soft containers */
+/* Rounded soft containers */
 .form-container, .questions-container, .report-container, .about-container {
     background-color: #ffffff;
     border-radius: 20px; /* More pronounced rounded corners */
@@ -134,7 +134,7 @@ label {
     color: #666666;
 }
 
-/* Soft, rounded inputs */
+/* Soft rounded inputs */
 input[type="text"],
 input[type="email"],
 select {
@@ -166,7 +166,7 @@ select {
     padding-right: 30px;
 }
 
-/* Rounded, soft buttons with updated size */
+/* Rounded soft buttons with updated size */
 button {
     width: 100%;
     padding: 12px; /* Reduced padding for a smaller button size */
@@ -193,7 +193,7 @@ button:active {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Button color palette (no green or red) */
+/* Button color palette  */
 #ai-mode-btn, #fallback-mode-btn {
     background-color: #4A90E2;
 }
@@ -223,9 +223,7 @@ button:active {
     background-color: #7B1FA2;
 }
 
-/* ------------------------------------------------------------- */
 /* NEW QUESTION ITEM STRUCTURE */
-/* ------------------------------------------------------------- */
 .question-item {
     background-color: #ffffff; /* White background for the card */
     border-radius: 16px; /* Slightly more rounded corners */
@@ -254,7 +252,7 @@ button:active {
 .options-list {
     list-style-type: none;
     padding: 0;
-    margin-top: 0; /* Remove top margin */
+    margin-top: 0;
 }
 
 .options-list li {
@@ -299,8 +297,8 @@ button:active {
 }
 
 .options-list input[type="radio"]:checked {
-    border-color: #4A90E2; /* Blue border on check */
-    background-color: #4A90E2; /* Blue fill on check */
+    border-color: #4A90E2; /* border on check */
+    background-color: #4A90E2; /* fill on check */
     box-shadow: 0 0 0 4px rgba(74, 144, 226, 0.3), inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Blue glow around */
 }
 
@@ -309,7 +307,7 @@ button:active {
 }
 
 
-/* Report Section Styles */
+/* Report Section*/
 .report-container p {
     font-size: 18px;
     margin-bottom: 10px;
@@ -335,14 +333,14 @@ button:active {
 }
 
 .answers-review-list .review-item .your-answer {
-    color: #6A5ACD; /* A soft indigo */
+    color: #6A5ACD; 
 }
 
 .answers-review-list .review-item .correct-answer {
-    color: #4CAF50; /* A soft green for correct answers */
+    color: #4CAF50; 
 }
 
-/* Certificate Section Styles */
+/* Certificate Section  */
 .certificate-container {
     text-align: center;
     padding: 0;
@@ -394,7 +392,7 @@ button:active {
     color: #4A90E2;
 }
 
-/* Styles for the download and restart buttons */
+/* for download and restart buttons */
 .certificate-container > button {
     margin-top: 20px;
     width: 50%;
@@ -414,7 +412,7 @@ button:active {
     background-color: #7B1FA2;
 }
 
-/* About Section Styles */
+/* About */
 .about-container {
     background-color: #ffffff;
     border-radius: 12px;
@@ -464,7 +462,7 @@ footer {
     font-size: 14px;
 }
 
-/* Styles for the hidden certificate container for PDF generation */
+/* hidden certificate container for pdf generation */
 #certificate-for-pdf {
     width: 297mm;
     height: 210mm;

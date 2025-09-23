@@ -236,14 +236,14 @@ async function handleDownloadCertificate() {
     document.getElementById('certificate-role-pdf').textContent = userInfo.role;
     document.getElementById('certificate-date-pdf').textContent = new Date().toLocaleDateString();
 
-    // Make the div temporarily visible off-screen
+    // for temporarily visible off-screen
     pdfCertificate.style.display = 'block';
     pdfCertificate.style.position = 'absolute';
     pdfCertificate.style.left = '-9999px';
     pdfCertificate.style.top = '0';
 
     try {
-        // Capture the certificate div with html2canvas
+        // Capture the certificate  with html2canvas
         const canvas = await html2canvas(pdfCertificate, {
             scale: 2,
             useCORS: true,
@@ -254,7 +254,7 @@ async function handleDownloadCertificate() {
         const { jsPDF } = window.jspdf;
         const pdf = new jsPDF('l', 'mm', 'a4');
 
-        // Add the captured image directly to the PDF
+        //  captured image directly to the PDF
         pdf.addImage(imgData, 'PNG', 0, 0, 297, 210);
         pdf.save(`${userInfo.fullName}_Certificate.pdf`);
         alert('Certificate downloaded!');
